@@ -98,6 +98,8 @@ public class ShiroConfig {
 		filterChainDefinitionMap.put("/**/*.jpg", "anon");
 		filterChainDefinitionMap.put("/**/*.png", "anon");
 		filterChainDefinitionMap.put("/**/*.ico", "anon");
+		//自定义排除
+		filterChainDefinitionMap.put("/user/Logo/**", "anon");//获取登录信息
 
 		// update-begin--Author:sunjianlei Date:20190813 for：排除字体格式的后缀
 		filterChainDefinitionMap.put("/**/*.ttf", "anon");

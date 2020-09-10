@@ -17,8 +17,10 @@
 		<module>jeecg-common</module>
 		<module>jeecg-cloud-demo</module>
         <module>jeecg-cloud-gateway</module>
+		<module>jeecg-cloud-mq-demo</module>
 		<module>jeecg-cloud-system</module>
         <module>jeecg-cloud-monitor</module>
+        <module>karaoke-backend-user</module>
     </modules>
 
 	<distributionManagement>
